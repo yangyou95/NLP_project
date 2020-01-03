@@ -34,6 +34,7 @@ for content in content_data:
     segs = list(filter(lambda x: x not in stop_words, segs))  # 去掉停用词
     sentences.append(segs)
 
+
     print(segs)
 
 
