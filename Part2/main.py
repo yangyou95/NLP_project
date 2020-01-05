@@ -16,6 +16,7 @@ title_data = train_data['title']
 content_data = train_data['content']
 
 
+
 stop_words_path = "/home/yang/PycharmProjects/NLP_projects/resources/stopwords-master/百度停用词表.txt"
 stop_words = pd.read_csv(stop_words_path,index_col=False,quoting=3,sep="\t",names=['stopword'], encoding='utf-8')
 stop_words = stop_words['stopword'].values
